@@ -8,30 +8,30 @@ The application features a modern user interface with light/dark mode, making it
 ## 📌 Features  
 
 ### 1️⃣ Expense Entry  
-✅ Record expenses with **date, category, amount, and description**.  
-✅ **Auto-categorization** of expenses.  
-✅ Supports **multiple currencies** (with conversion support).  
+- Record expenses with **date, category, amount, and description**.
+- **Auto-categorization** of expenses.
+- Supports **multiple currencies** (with conversion support).  
 
 ### 2️⃣ Data Visualization & Analytics  
-✅ **Interactive charts & graphs** for better financial insights.  
-✅ **Expense breakdown by category** (Pie Charts).  
-✅ **Daily/Weekly/Monthly spending trends** (Bar Charts & Line Graphs).  
-✅ **Budget recommendation graphs** based on spending patterns.  
-✅ **Forecast future expenses** using machine learning.  
+- **Interactive charts & graphs** for better financial insights.
+- **Expense breakdown by category** (Pie Charts).
+- **Daily/Weekly/Monthly spending trends** (Bar Charts & Line Graphs).
+- **Budget recommendation graphs** based on spending patterns.
+- **Forecast future expenses** using machine learning.  
 
 ### 3️⃣ Reports & Exports  
-✅ **Generate detailed PDF and HTML reports** with all graphs and insights.  
-✅ **Scheduled reports via email**.  
-✅ Export expenses to **CSV or Excel** for external analysis.  
+- **Generate detailed PDF and HTML reports** with all graphs and insights.
+- **Scheduled reports via email**.
+- Export expenses to **CSV or Excel** for external analysis.  
 
 ### 4️⃣ Smart Insights & Budgeting  
-✅ **AI-powered budget recommendations**.  
-✅ **Anomaly detection** to flag unusually high expenses.  
-✅ **Spending categorization** into **Must, Need, and Want**.  
+- **AI-powered budget recommendations**.
+- **Anomaly detection** to flag unusually high expenses.
+- **Spending categorization** into **Must, Need, and Want**.  
 
 ### 5️⃣ Modern & Responsive UI  
-✅ **Toggle between Light & Dark mode** for better visibility.  
-✅ **Clean and minimalistic design** with intuitive navigation.  
+- **Toggle between Light & Dark mode** for better visibility.
+- **Clean and minimalistic design** with intuitive navigation.  
 
 ---
 
@@ -46,6 +46,30 @@ The application features a modern user interface with light/dark mode, making it
 
 ---
 
+## 📊 Machine Learning Models Used
+- The Smart Expense Tracker integrates machine learning for enhanced financial insights:
+
+### 1️⃣ Expense Forecasting
+- **Model Used:** Linear Regression
+  
+- **Purpose:** Predicts future expenses based on historical spending patterns.
+
+2️⃣ Budget Recommendation
+- **Model Used:** K-Means Clustering
+  
+- **Purpose:** Suggest a monthly budget by categorizing users into different spending behavior groups.
+
+3️⃣ Anomaly Detection
+- **Model Used:** Isolation Forest
+  
+- **Purpose:** Flags unusually high expenses compared to past spending trends.
+
+4️⃣ Auto-Categorization of Expenses
+- **Model Used:** Naïve Bayes Classifier
+
+- **Purpose:** Automatically assigns a category to new expense entries based on previous data.
+
+---
 ## 📂 Project Structure  
 
 - Expense Tracker/
@@ -88,6 +112,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
 
 # 📊 How It Works  
 
@@ -97,21 +122,21 @@ python main.py
 
 ## 🔹 Data Analytics 
 - Users can filter expense data using "From" and "To" date pickers and select analysis types like:
-✅ **Bar Charts:** Display expense trends over time.
-✅ **Pie Charts:** Show expense distribution across categories. 
-✅ **Line Graphs:** Track cumulative spending trends.
+  - **Bar Charts:** Display expense trends over time.
+  - **Pie Charts:** Show expense distribution across categories.
+  - **Line Graphs:** Track cumulative spending trends.
 
 ## 🔹 Forecasting & Budgeting  
-✅ Uses machine learning (linear regression) to forecast future expenses.
-✅ Generates personalized budget recommendations based on spending history.
+- Uses machine learning (linear regression) to forecast future expenses.
+- Generates personalized budget recommendations based on spending history.
 
 ## 🔹 Anomaly Detection
-✅ The app flags unusually high expenses by comparing new entries with historical data.
-✅ Alerts users when spending behavior deviates significantly from normal patterns.
+- The app flags unusually high expenses by comparing new entries with historical data.
+- Alerts users when spending behavior deviates significantly from normal patterns.
 
 ## 🔹 Additional Insights
-✅ Categorizes expenses into Must, Need, and Want to help prioritize spending.
-✅ Shows cumulative expense trends over time for better financial planning.
+- Categorizes expenses into Must, Need, and Want to help prioritize spending.
+- Shows cumulative expense trends over time for better financial planning.
 
 ---
 
