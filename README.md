@@ -42,7 +42,6 @@ The application features a modern user interface with light/dark mode, making it
 - **ReportLab**: PDF report generation.  
 - **SQLite**: Lightweight local database storage.  
 - **Tkinter**: GUI for the desktop version.  
-- **Flask (Optional)**: API for web-based version.  
 
 ---
 
