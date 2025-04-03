@@ -71,21 +71,21 @@ The application features a modern user interface with light/dark mode, making it
 ---
 ## 📂 Project Structure  
 ```
-- Expense Tracker/
-- ├── main.py
-- ├── analytics_section.py                 
-- ├── utils.py         
-- ├── database.py                 
-- │── report.py
-- │── import_export.py       
-- │── export.py
-- │── receipt_capture.py
-- │── ml.py
-- │── requirements.txt
-- │── README.md
-- │── .gitignore
-- │── advanced_categorization.py
-- └── expense_tracker.db 
+Expense Tracker/
+├── main.py
+├── analytics_section.py                 
+├── utils.py         
+├── database.py                 
+│── report.py
+│── import_export.py       
+│── export.py
+│── receipt_capture.py
+│── ml.py
+│── requirements.txt
+│── README.md
+│── .gitignore
+│── advanced_categorization.py
+└── expense_tracker.db 
 ```
 ---
 
