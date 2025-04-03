@@ -54,17 +54,17 @@ The application features a modern user interface with light/dark mode, making it
   
 - **Purpose:** Predicts future expenses based on historical spending patterns.
 
-2️⃣ Budget Recommendation
+### 2️⃣ Budget Recommendation
 - **Model Used:** K-Means Clustering
   
 - **Purpose:** Suggest a monthly budget by categorizing users into different spending behavior groups.
 
-3️⃣ Anomaly Detection
+### 3️⃣ Anomaly Detection
 - **Model Used:** Isolation Forest
   
 - **Purpose:** Flags unusually high expenses compared to past spending trends.
 
-4️⃣ Auto-Categorization of Expenses
+### 4️⃣ Auto-Categorization of Expenses
 - **Model Used:** Naïve Bayes Classifier
 
 - **Purpose:** Automatically assigns a category to new expense entries based on previous data.
