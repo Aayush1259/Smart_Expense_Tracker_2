@@ -70,7 +70,7 @@ The application features a modern user interface with light/dark mode, making it
 
 ---
 ## 📂 Project Structure  
-
+```
 - Expense Tracker/
 - ├── main.py
 - ├── analytics_section.py                 
@@ -85,8 +85,8 @@ The application features a modern user interface with light/dark mode, making it
 - │── README.md
 - │── .gitignore
 - │── advanced_categorization.py
-- │── expense_tracker.db 
-
+- └── expense_tracker.db 
+```
 ---
 
 ## 💻 Installation & Setup  
