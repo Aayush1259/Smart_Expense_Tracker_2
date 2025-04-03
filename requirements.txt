@@ -1,0 +1,16 @@
+tkcalendar
+matplotlib>=3.7.0
+pandas>=2.0.0
+openpyxl>=3.0.0
+seaborn
+scikit-learn
+numpy
+plotly
+pytesseract
+Pillow
+reportlab
+dash
+dash-bootstrap-components
+schedule
+tensorflow
+keras
