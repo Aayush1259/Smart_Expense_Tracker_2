@@ -36,12 +36,12 @@ The application features a modern user interface with light/dark mode, making it
 ---
 
 ## 🚀 Technologies Used  
-- **Python**: Core logic and backend processing.  
-- **Pandas**: Data handling and processing.  
-- **Matplotlib & Seaborn**: Charts & data visualization.  
-- **ReportLab**: PDF report generation.  
-- **SQLite**: Lightweight local database storage.  
-- **Tkinter**: GUI for the desktop version.  
+- **Python:** Core logic and backend processing.  
+- **Pandas:** Data handling and processing.  
+- **Matplotlib & Seaborn:** Charts & data visualization.  
+- **ReportLab:** PDF report generation.  
+- **SQLite:** Lightweight local database storage.  
+- **Tkinter:** GUI for the desktop version.  
 
 ---
 
@@ -121,9 +121,9 @@ python main.py
 
 ## 🔹 Data Analytics 
 - Users can filter expense data using "From" and "To" date pickers and select analysis types like:
-  - **Bar Charts:** Display expense trends over time.
-  - **Pie Charts:** Show expense distribution across categories.
-  - **Line Graphs:** Track cumulative spending trends.
+  - **Weekly:** Display expense analysis for weekly.
+  - **Monthly:** Display expense analysis for monthly.
+  - **Yearly:** Display expense analysis for yearly.
 
 ## 🔹 Forecasting & Budgeting  
 - Uses machine learning (linear regression) to forecast future expenses.
@@ -140,7 +140,7 @@ python main.py
 ---
 
 ## 📌 Future Improvements  
-🔹 **Google Sheets Integration** - Sync data to the cloud.  
-🔹 **Mobile Version** - Develop a mobile app using Flutter or React Native.  
-🔹 **Voice-Based Expense Entry** - Use AI assistants for hands-free tracking.  
-🔹 **Multi-User Support** - Allow multiple accounts with authentication.  
+🔹 **Google Sheets Integration:** Sync data to the cloud.  
+🔹 **Mobile Version:** Develop a mobile app using Flutter or React Native.  
+🔹 **Voice-Based Expense Entry:** Use AI assistants for hands-free tracking.  
+🔹 **Multi-User Support:** Allow multiple accounts with authentication.  
